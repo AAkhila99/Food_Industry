@@ -1,0 +1,9 @@
+FoodItem,BlueWater,GreenWater,GreyWater,TotalWater,Calorie (kcal/kg),Fat (g/kg),Protein (g/kg),Calorie (litre/kcal),Fat (litre/g fat),Protein (litre/g protein)
+Sugar crops,52,130,15,197,285,0,0,0.69,0,0
+Vegetables,43,194,85,322,240,2.1,12,1.34,154,26
+Starchy roots,16,327,43,387,827,1.7,13,0.47,226,31
+Fruits,147,726,89,962,460,2.8,5.3,2.09,348,180
+Cereals,228,1232,184,1644,3208,15,80,0.51,112,21
+Oil crops,220,2023,121,2364,2908,209,146,0.81,11,16
+Pulses,141,3180,734,4055,3412,23,215,1.19,180,19
+Nuts,1367,7016,680,9063,2500,193,65,3.63,47,139

@@ -1,0 +1,92 @@
+/* styles.css */
+
+
+/* Global styles */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: gradient lightcoral;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /* Light grey background */
+    color: #333;
+    /* Dark grey text */
+}
+
+a {
+    color: black;
+    /* Peach link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    /* Lighter peach on hover */
+}
+
+
+/* Sidebar styles */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    /* Dark grey sidebar */
+    overflow-x: hidden;
+    transition: width 0.5s;
+    z-index: 1;
+}
+
+.sidebar a {
+    padding: 10px;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: black;
+    /* Slightly lighter grey sidebar item on hover */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #777;
+    /* White close button */
+}
+
+
+/* Navbar styles */
+
+.navbar {
+    /* background-color: lightcoral; */
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /* Peach navbar */
+    /* Removed horizontal padding */
+}
+
+.menu-button {
+    font-size: 24px;
+    color: black;
+    /* White menu button */
+    margin-left: 0px;
+    /* Added margin for spacing */
+}
+
+
+/* Main content styles */
+
+#content {
+    padding: 20px;
+}
+
+.main-content h1 {
+    color: #333;
+    /* Dark grey heading */
+}

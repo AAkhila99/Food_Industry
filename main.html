@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css1.css">
+    <link rel="stylesheet" type="text/css" href="css2.css">
+    <link rel="stylesheet" type="text/css" href="css3.css">
+    <link rel="stylesheet" type="text/css" href="css4.css">
+</head>
+
+<body>
+
+    <div class="sidebar" style="display:none" id="sidebar">
+        <button class="close-button" onclick="closeSidebar()"> &times;</button>
+        <h1>Menu</h1>
+        <a href="map3.html" class="sidebar-link">Meat Consumption</a>
+        <a href="cerealBubble.html" class="sidebar-link">Breakfast Cereal Ratings</a>
+        <a href="cerealCleveland.html" class="sidebar-link">Cereal and Bakery Products Purchased</a>
+        <a href="sugarPie.html" class="sidebar-link">Sugar Intake</a>
+        <a href="alcohol.html" class="sidebar-link">Wine Consumption and Production</a>
+        <a href="CropsAndWater.html" class="sidebar-link">Crop Harvest and Water Footprint</a>
+    </div>
+
+    <div id="content">
+
+        <div class="navbar">
+            <button id="openSidebar" class="menu-button" onclick="openSidebar()">&#9776;</button>
+            <div class="main-content">
+                <h1>Food Industry and its Impact on the World</h1>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h3>Objective:</h3>
+
+            <h3>Technologies Used:
+                <p>HTML, CSS, JavaScript, D3.js</p>
+            </h3>
+        </div>
+
+    </div>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("content").style.marginLeft = "25%";
+            document.getElementById("sidebar").style.width = "25%";
+            document.getElementById("sidebar").style.display = "block";
+            document.getElementById("openSidebar").style.display = 'none';
+        }
+
+        function closeSidebar() {
+            document.getElementById("content").style.marginLeft = "0%";
+            document.getElementById("sidebar").style.display = "none";
+            document.getElementById("openSidebar").style.display = "inline-block";
+        }
+    </script>
+
+</body>
+
+</html>
